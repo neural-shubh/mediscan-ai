@@ -322,11 +322,11 @@ if uploaded_file:
 
     st.markdown("<hr class='divider'>", unsafe_allow_html=True)
     m1, m2, m3, m4 = st.columns(4)
-    for col, val, lbl in zip(
-        [m1, m2, m3, m4],
-        [f"{confidence:.1f}%", len(result['labels']), "✓" if result['gradcam_img'] else "✗", modality_key.upper()],
-        ["Confidence", "Classes", "Grad-CAM", "Modality"]
-    ):
+   gradcam_status = "Yes" if result['gradcam_img'] is not None else "No"
+metric_values  = [f"{confidence:.1f}%", str(len(result['labels'])), gradcam_status, modality_key.upper()]
+metric_labels  = ["Confidence", "Classes", "Grad-CAM", "Modality"]
+
+for col, val, lbl in zip([m1, m2, m3, m4], metric_values, metric_labels):
         with col:
             st.markdown(f"<div class='metric-box'><div class='metric-value'>{val}</div><div class='metric-label'>{lbl}</div></div>",
                         unsafe_allow_html=True)
