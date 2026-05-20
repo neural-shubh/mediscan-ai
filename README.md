@@ -3,7 +3,7 @@
 Neural medical image classifier with Grad-CAM explainability.
 
 ## Live Demo
-Deployed on Render.com
+[MediScan AI](https://mediscan-ai-hz2cnbzmgparknjl9sb6ah.streamlit.app/)
 
 ## Models
 - **Brain MRI**: EfficientNetV2B3 — 4 class (Glioma / Meningioma / No Tumor / Pituitary) — 95% val accuracy
