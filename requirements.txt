@@ -7,4 +7,4 @@ numpy
 huggingface-hub
 python-multipart
 # Python 3.11 required
-tensorflow==2.18.0
+
