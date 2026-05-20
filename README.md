@@ -8,6 +8,7 @@ Deployed on Render.com
 ## Models
 - **Brain MRI**: EfficientNetV2B3 — 4 class (Glioma / Meningioma / No Tumor / Pituitary) — 95% val accuracy
 - **Chest X-Ray**: DenseNet121 — Binary (Normal / Pneumonia)
+- [Separately deployed on ](https://huggingface.co/neural-shubh/mediscan-models/tree/main)
 
 ## Tech Stack
 - **Backend**: FastAPI + TensorFlow
