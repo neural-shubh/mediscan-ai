@@ -1,10 +1,7 @@
-fastapi
-uvicorn[standard]
+streamlit
 tensorflow==2.18.0
 opencv-python-headless
 pillow
 numpy
+matplotlib
 huggingface-hub
-python-multipart
-# Python 3.11 required
-
