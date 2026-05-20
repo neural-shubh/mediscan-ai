@@ -1,7 +1,0 @@
-streamlit
-tensorflow==2.18.0
-opencv-python-headless
-pillow
-numpy
-matplotlib
-huggingface-hub
