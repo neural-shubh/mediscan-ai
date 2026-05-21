@@ -2,7 +2,7 @@
 
 > AI-powered medical image analysis with Grad-CAM explainability — deployed live on Streamlit Cloud.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit)](https://mediscan-ai-grcgwmxnbs4wonphcb8jwk.streamlit.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit)]([https://mediscan-ai-grcgwmxnbs4wonphcb8jwk.streamlit.app/](https://mediscan-ai-hz2cnbzmgparknjl9sb6ah.streamlit.app/))
 [![Models](https://img.shields.io/badge/Models-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface)](https://huggingface.co/neural-shubh/mediscan-models)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/neural-shubh/mediscan-ai)
 
