@@ -10,7 +10,7 @@
 
 ## 🌐 Live Demo
 
-**[https://mediscan-ai-grcgwmxnbs4wonphcb8jwk.streamlit.app](https://mediscan-ai-grcgwmxnbs4wonphcb8jwk.streamlit.app)**
+**[mediscan-ai](https://mediscan-ai-hz2cnbzmgparknjl9sb6ah.streamlit.app/)**
 
 Upload a Brain MRI or Chest X-Ray image and get an instant AI-powered diagnosis with visual explainability.
 
