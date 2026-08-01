@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# Model / data artifacts
+*.h5
+*.pt
+*.onnx.bak
+temp/
